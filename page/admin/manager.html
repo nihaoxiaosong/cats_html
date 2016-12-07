@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>工作室经理管理</title>
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<!-- 可选的Bootstrap主题文件（一般不使用） -->
+		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap-theme.min.css"></script>
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="page-header">
+					<h2>CATS衡信后台管理平台 <small>浙江衡信教育科技有限公司</small></h2>
+				</div>
+			</div>
+			<div class="row" style="margin-top: 30px;">
+				<div class="col-md-2">
+					<div class="list-group">
+						<a href="#" class="list-group-item active"><span class="glyphicon glyphicon-wrench"></span> 基础数据管理</a>
+						<a href="product.html" class="list-group-item" style="text-align:center">产品管理</a>
+						<a href="#" class="list-group-item" style="text-align:center">学校管理</a>
+						<a href="#" class="list-group-item row" style="text-align:center">工作室经理管理</a>
+						<a href="#" class="list-group-item" style="text-align:center">老师管理</a>
+						<a href="#" class="list-group-item" style="text-align:center">学生管理</a>
+						<a href="#" class="list-group-item" style="text-align:center">权限管理</a>
+						<a href="#" class="list-group-item" style="text-align:center">公告管理</a>
+						<a href="#" class="list-group-item active"><span class="glyphicon glyphicon-user"></span> 人才选拔测评管理</a>
+						<a href="#" class="list-group-item" style="text-align:center">CMAC合格标准</a>
+						<a href="#" class="list-group-item" style="text-align:center">选拔合格标准</a>
+						<a href="#" class="list-group-item" style="text-align:center">成绩查询</a>
+						<a href="#" class="list-group-item" style="text-align:center">选拔结果管理</a>
+						<a href="#" class="list-group-item" style="text-align:center">课程管理</a>
+						<a href="#" class="list-group-item" style="text-align:center">政府网站管理</a>
+						<a href="#" class="list-group-item active"><span class="glyphicon glyphicon-hdd"></span> 工作室管理</a>
+						<a href="#" class="list-group-item" style="text-align:center">任务类型设置</a>
+					</div>
+				</div>
+				<div class="col-md-10">
+					<div>
+						<ol class="breadcrumb">
+							<li>基础数据管理</li>
+							<li class="active">工作室经理管理</li>
+						</ol>
+					</div>
+					<div style="margin-top: 30px;">
+						<form class="form-inline" role="form">
+							<div class="form-group" style="margin-right: 20px;">
+								<label for="">工作室经理:</label>
+								<input class="form-control" type="text" placeholder="请输入工作室经理">
+							</div>
+							<div class="form-group" style="margin-right: 20px;">
+								<label for="">状态:</label>
+								<select class="form-control">
+									<option>请选择状态</option>
+									<option>开启</option>
+									<option>停用</option>
+								</select>
+							</div>
+							<div class="form-group" style="margin-right: 20px;">
+								<input class="btn btn-primary" type="button" value="查询">
+							</div>
+						</form>
+					</div>
+					<div style="margin-top: 30px;"><button type="button" class="btn btn-primary">新增</button></div>
+					<div style="margin-top: 5px;">
+						<table class="table table-bordered table-hover" style="text-align:center">
+							<tr class="info">
+								<td>序号</td>
+								<td>工作室经理</td>
+								<td>联系方式</td>
+								<td>工作室名称</td>
+								<td>状态</td>
+								<td>操作</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>张三</td>
+								<td>13500000001</td>
+								<td>衡信会计（杭州西溪）工作室</td>
+								<td>启用</td>
+								<td>
+									<a href="#">修改</a>
+									<a href="#">重置密码</a>
+								</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>李四</td>
+								<td>13500000002</td>
+								<td>衡信会计（杭州西溪）工作室</td>
+								<td>停用</td>
+								<td>
+									<a href="#">修改</a>
+									<a href="#">重置密码</a>
+								</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>王五</td>
+								<td>13500000003</td>
+								<td>衡信会计（杭州西溪）工作室</td>
+								<td>启用</td>
+								<td>
+									<a href="#">修改</a>
+									<a href="#">重置密码</a>
+								</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>赵六</td>
+								<td>13500000004</td>
+								<td>衡信会计（杭州西溪）工作室</td>
+								<td>启用</td>
+								<td>
+									<a href="#">修改</a>
+									<a href="#">重置密码</a>
+								</td>
+							</tr>
+							<tr>
+								<td>5</td>
+								<td>张三</td>
+								<td>13500000005</td>
+								<td>衡信会计（杭州西溪）工作室</td>
+								<td>启用</td>
+								<td>
+									<a href="#">修改</a>
+									<a href="#">重置密码</a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
